@@ -1,5 +1,5 @@
 {
-    "name": "streamsaver",
+    "name": "drzzle-streamsaver",
     "version": "2.0.3",
     "description": "StreamSaver writes stream to the filesystem directly - asynchronous",
     "main": "StreamSaver.js",
@@ -23,5 +23,8 @@
     "bugs": {
         "url": "https://github.com/jimmywarting/StreamSaver.js/issues"
     },
-    "homepage": "https://github.com/jimmywarting/StreamSaver.js#readme"
+    "homepage": "https://github.com/jimmywarting/StreamSaver.js#readme",
+    "files": [
+      "StreamSaver.js"
+    ]
 }

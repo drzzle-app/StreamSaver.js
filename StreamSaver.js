@@ -24,7 +24,7 @@
     WritableStream: window.WritableStream || ponyfill.WritableStream,
     supported: true,
     version: { full: '2.0.0', major: 2, minor: 0, dot: 0 },
-    mitm: 'https://jimmywarting.github.io/StreamSaver.js/mitm.html?version=2.0.0'
+    mitm: 'https://drzzle-web-app.s3-us-west-2.amazonaws.com/stream-saver/mitm.html?version=2.0.0'
   }
 
   /**
@@ -154,7 +154,7 @@
       loadTransporter()
 
       channel = new MessageChannel()
-      
+
       // Make filename RFC5987 compatible
       filename = encodeURIComponent(filename.replace(/\//g, ':'))
         .replace(/['()]/g, escape)
